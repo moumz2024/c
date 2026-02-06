@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consult Group - DevOps & Design Consulting</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Consult Group</h1>
+            <nav>
+                <a href="#hero">Home</a>
+                <a href="#services">Services</a>
+                <a href="#team">Team</a>
+                <a href="#blog">Blog</a>
+                <a href="#contact">Contact</a>
+                <button id="lang-switch" class="lang-switch">
+                    <span id="lang-icon">🇺🇸</span>
+                    <span id="lang-text">EN</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 data-i18n="presentation-title">Welcome to Consult Group</h1>
+                <p data-i18n="presentation-desc">Combining DevOps and backend expertise with design, mobile, and frontend skills to deliver exceptional consulting services.</p>
+                <a href="#services" class="cta-button" data-i18n="get-started">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <div class="container">
+            <h2 data-i18n="services-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3 data-i18n="service-mobile">Mobile Development</h3>
+                    <p data-i18n="service-mobile-desc">Custom mobile apps for iOS and Android.</p>
+                    <a href="mobile.html" data-i18n="learn-more">Learn More</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🛒</div>
+                    <h3 data-i18n="service-ecommerce">E-Commerce Solutions</h3>
+                    <p data-i18n="service-ecommerce-desc">Build scalable online stores.</p>
+                    <a href="ecommerce.html" data-i18n="learn-more">Learn More</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🌐</div>
+                    <h3 data-i18n="service-websites">Websites</h3>
+                    <p data-i18n="service-websites-desc">Responsive and modern web designs.</p>
+                    <a href="websites.html" data-i18n="learn-more">Learn More</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👨‍💻</div>
+                    <h3 data-i18n="service-developer">Developer Missions</h3>
+                    <p data-i18n="service-developer-desc">Short-term development projects.</p>
+                    <a href="developer-missions.html" data-i18n="learn-more">Learn More</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💼</div>
+                    <h3 data-i18n="service-consulting">Consulting</h3>
+                    <p data-i18n="service-consulting-desc">Expert advice on tech strategies.</p>
+                    <a href="consulting.html" data-i18n="learn-more">Learn More</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🚀</div>
+                    <h3 data-i18n="service-mvp">MVP for Startups</h3>
+                    <p data-i18n="service-mvp-desc">Rapid prototyping and MVP development.</p>
+                    <a href="mvp-startups.html" data-i18n="learn-more">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="section">
+        <div class="container">
+            <h2 data-i18n="team-title">Our Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="team-avatar">👨‍💼</div>
+                    <h3 data-i18n="team-member1">DevOps & Backend Expert</h3>
+                    <p data-i18n="team-member1-desc">Specializing in scalable infrastructures and backend systems.</p>
+                    <div class="team-skills">
+                        <span>DevOps</span>
+                        <span>Backend</span>
+                        <span>Cloud</span>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar">👩‍🎨</div>
+                    <h3 data-i18n="team-member2">Design & Frontend Expert</h3>
+                    <p data-i18n="team-member2-desc">Creating intuitive designs and mobile/frontend solutions.</p>
+                    <div class="team-skills">
+                        <span>UI/UX</span>
+                        <span>Frontend</span>
+                        <span>Mobile</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="section">
+        <div class="container">
+            <h2 data-i18n="blog-title">Latest Blog Posts</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image">📊</div>
+                    <div class="blog-content">
+                        <h3><a href="blog/article1.html" data-i18n="blog-post1-title">How to Build Scalable MVPs</a></h3>
+                        <p data-i18n="blog-post1-excerpt">Tips for startups on creating effective minimum viable products.</p>
+                        <span class="blog-date">October 1, 2023</span>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image">🚀</div>
+                    <div class="blog-content">
+                        <h3><a href="blog/article2.html">DevOps Best Practices</a></h3>
+                        <p>Learn the essential practices for modern DevOps implementation.</p>
+                        <span class="blog-date">September 15, 2023</span>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image">🎨</div>
+                    <div class="blog-content">
+                        <h3><a href="blog/article3.html">UI/UX Design Trends</a></h3>
+                        <p>Stay ahead with the latest trends in user interface and experience design.</p>
+                        <span class="blog-date">August 28, 2023</span>
+                    </div>
+                </article>
+            </div>
+            <div class="blog-cta">
+                <a href="blog.html" class="cta-button" data-i18n="view-all-blog">View All Posts</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 data-i18n="contact-title">Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Name" data-i18n-placeholder="name-placeholder" required>
+                <input type="email" name="email" placeholder="Email" data-i18n-placeholder="email-placeholder" required>
+                <textarea name="message" placeholder="Message" data-i18n-placeholder="message-placeholder" required></textarea>
+                <button type="submit" data-i18n="send-message">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Consult Group</h3>
+                    <p>Combining DevOps and backend expertise with design, mobile, and frontend skills to deliver exceptional consulting services.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><strong>Email:</strong> info@consultgroup.com</li>
+                        <li><strong>Phone:</strong> +123 456 7890</li>
+                        <li><strong>Address:</strong> 123 Tech Street, Digital City, DC 12345</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer-text">© 2023 Consult Group. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
